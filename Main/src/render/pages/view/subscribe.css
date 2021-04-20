@@ -1,0 +1,41 @@
+/* 視聴画面のCSS */
+
+/* サブスク部分 */
+#subscribe {
+  height: 38px;
+  width: 120px;
+  margin-top: 8px;
+  color: #c6c6c6;
+  background-color: #2e1517;
+  border-color: #c6c6c6;
+  border: 1.5px solid;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+#subscribe-button {
+  height: 38px;
+  width: 75px;
+  margin-top: 8px;
+  margin-left: 5px;
+  color: #c6c6c6;
+  background-color: #2e1517;
+  border-color: #c6c6c6;
+  border: 1.5px solid;
+  border-radius: 4px;
+  font-size: 12px;
+  outline: none;
+}
+
+#subscribe-login{
+  height: 38px;
+  width: 200px;
+  margin-top: 8px;
+  color: #c6c6c6;
+  background-color: #2e1517;
+  border-color: #c6c6c6;
+  border: 1.5px solid;
+  border-radius: 4px;
+  font-size: 12px;
+  outline: none;
+}

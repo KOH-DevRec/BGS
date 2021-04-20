@@ -1,0 +1,106 @@
+
+#menu-body{
+    height: calc(100% - 80px);
+    width: 20%;
+    background-color: #3C1313;
+    position: absolute;
+    top: 0;
+    padding-top: 80px;
+    right: 240px;
+}
+
+#streaming-button{
+    height: 40px;
+    width: calc(20% * 0.88);
+    position: absolute;
+    top: 10px;
+    right: calc(20% * 0.06 + 240px);
+    color: #c6c6c6;
+    background-color: #2e1517;
+    border-color: #c6c6c6;
+    border: 2px solid;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor : pointer;
+    outline: none;
+    z-index: 4;
+}
+
+.streaming-menu-switch{
+    height: 40px;
+    margin: 0px 6% 30px 6%;
+    color: #ffffff;
+    line-height: 40px;
+}
+
+.streaming-menu-text{
+    margin: 0px 6% 30px 6%;
+}
+
+.streaming-menu-button{
+    height: 40px;
+    width: 30%;
+    position: absolute;
+    right: 6%;
+    color: #858585;
+    background-color: #2e1517;
+    border-color: #858585;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor : pointer;
+    outline: none;
+}
+
+.menu-title{
+    margin-left: 6%;
+    margin-bottom: 0px;
+    color: #858585;
+    font-size: 14px;
+}
+
+.menu-text{
+    margin-left: 6%;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+/* メッセージ表示部分 */
+#message-body{
+    height: 100%;
+    width: 240px;
+    background-color: #2e1517;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#input-item-message{
+    height: 38px;
+    width: 220px;
+    background-color: #462023;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+  }
+
+#input-area-message{
+    height: 38px;
+    width: 200px;
+    padding-left: 5px;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+  
+#message-send{
+    height: 28px;
+    width: 28px;
+    margin-top: 6px;
+    margin-right: 6px;
+}

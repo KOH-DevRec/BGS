@@ -1,0 +1,97 @@
+/* 配信の詳細の表示部分 */
+#my-detail-body{
+    height: 38%;
+    width: calc(80% - 240px);
+    background-color: #2e1517;
+    position: absolute;
+    top: 62%;
+    left: 0;
+    padding-top: 0px;
+}
+
+#my-logo{
+    height: 120px;
+    width: 120px;
+    margin: 25px 20px 40px 20px;
+}
+
+#edit-button{
+    height: 40px;
+    width: 120px;
+    margin-left: 20px;
+    color: #c6c6c6;
+    background-color: #2e1517;
+    border-color: #c6c6c6;
+    border: 2px solid;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor : pointer;
+    outline: none;
+}
+
+.my-detail-item1{
+    width: 160px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.my-detail-item2{
+    display: inline-block;
+    width: calc((100% - 160px) * 0.45);
+    vertical-align: top;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.my-detail-item3{
+    display: inline-block;
+    width: calc((100% - 160px) * 0.55);
+    vertical-align: top;
+    position: absolute;
+    top: 0;
+    padding-top: 10px;
+}
+
+.streaming-detail-title{
+    color: #858585;
+    font-size: 14px; 
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.streaming-detail-text{
+    width: 85%;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    overflow: hidden;
+}
+
+.streaming-detail-text a{
+    color: #ffffff;
+}
+
+/* 配信映像のダミー */
+.streaming-sample{
+    height: 62%;
+    width: calc(80% - 240px);
+    background-color: #858585;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* 配信映像 */
+#my-video{
+    height: auto;
+    width: calc(80% - 240px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+  }

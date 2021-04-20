@@ -1,0 +1,72 @@
+server/bgs_server.js:54  2021-03-11 23:27:00 INFO サーバに到達
+server/bgs_server.js:54  2021-03-11 23:27:00 INFO サーバに到達
+server/bgs_server.js:54  2021-03-11 23:27:01 INFO サーバに到達
+server/bgs_server.js:54  2021-03-11 23:27:10 INFO サーバに到達
+server/bgs_server.js:54  2021-03-11 23:27:10 INFO サーバに到達
+server/bgs_server.js:54  2021-03-11 23:27:10 INFO サーバに到達
+db/db-manager.js:166  2021-03-11 23:27:10 INFO SqlError: retrieve connection from pool timeout after 9998ms
+    at Object.module.exports.createError (/root/TIC2020/node_modules/mariadb/lib/misc/errors.js:55:10)
+    at timeoutTask (/root/TIC2020/node_modules/mariadb/lib/pool-base.js:300:16)
+    at Timeout.rejectAndResetTimeout [as _onTimeout] (/root/TIC2020/node_modules/mariadb/lib/pool-base.js:322:5)
+    at listOnTimeout (internal/timers.js:556:17)
+    at processTimers (internal/timers.js:497:7) {
+  fatal: false,
+  errno: 45028,
+  sqlState: 'HY000',
+  code: 'ER_GET_CONNECTION_TIMEOUT'
+}
+db/db-manager.js:166  2021-03-11 23:27:10 INFO SqlError: retrieve connection from pool timeout after 10001ms
+    at Object.module.exports.createError (/root/TIC2020/node_modules/mariadb/lib/misc/errors.js:55:10)
+    at timeoutTask (/root/TIC2020/node_modules/mariadb/lib/pool-base.js:300:16)
+    at Timeout.rejectAndResetTimeout [as _onTimeout] (/root/TIC2020/node_modules/mariadb/lib/pool-base.js:322:5)
+    at listOnTimeout (internal/timers.js:556:17)
+    at processTimers (internal/timers.js:497:7) {
+  fatal: false,
+  errno: 45028,
+  sqlState: 'HY000',
+  code: 'ER_GET_CONNECTION_TIMEOUT'
+}
+db/db-manager.js:166  2021-03-11 23:27:11 INFO SqlError: retrieve connection from pool timeout after 10000ms
+    at Object.module.exports.createError (/root/TIC2020/node_modules/mariadb/lib/misc/errors.js:55:10)
+    at timeoutTask (/root/TIC2020/node_modules/mariadb/lib/pool-base.js:300:16)
+    at Timeout.rejectAndResetTimeout [as _onTimeout] (/root/TIC2020/node_modules/mariadb/lib/pool-base.js:322:5)
+    at listOnTimeout (internal/timers.js:556:17)
+    at processTimers (internal/timers.js:497:7) {
+  fatal: false,
+  errno: 45028,
+  sqlState: 'HY000',
+  code: 'ER_GET_CONNECTION_TIMEOUT'
+}
+db/db-manager.js:166  2021-03-11 23:27:20 INFO SqlError: retrieve connection from pool timeout after 10001ms
+    at Object.module.exports.createError (/root/TIC2020/node_modules/mariadb/lib/misc/errors.js:55:10)
+    at timeoutTask (/root/TIC2020/node_modules/mariadb/lib/pool-base.js:300:16)
+    at Timeout.rejectAndResetTimeout [as _onTimeout] (/root/TIC2020/node_modules/mariadb/lib/pool-base.js:322:5)
+    at listOnTimeout (internal/timers.js:556:17)
+    at processTimers (internal/timers.js:497:7) {
+  fatal: false,
+  errno: 45028,
+  sqlState: 'HY000',
+  code: 'ER_GET_CONNECTION_TIMEOUT'
+}
+db/db-manager.js:166  2021-03-11 23:27:20 INFO SqlError: retrieve connection from pool timeout after 10001ms
+    at Object.module.exports.createError (/root/TIC2020/node_modules/mariadb/lib/misc/errors.js:55:10)
+    at timeoutTask (/root/TIC2020/node_modules/mariadb/lib/pool-base.js:300:16)
+    at Timeout.rejectAndResetTimeout [as _onTimeout] (/root/TIC2020/node_modules/mariadb/lib/pool-base.js:322:5)
+    at listOnTimeout (internal/timers.js:556:17)
+    at processTimers (internal/timers.js:497:7) {
+  fatal: false,
+  errno: 45028,
+  sqlState: 'HY000',
+  code: 'ER_GET_CONNECTION_TIMEOUT'
+}
+db/db-manager.js:166  2021-03-11 23:27:20 INFO SqlError: retrieve connection from pool timeout after 10001ms
+    at Object.module.exports.createError (/root/TIC2020/node_modules/mariadb/lib/misc/errors.js:55:10)
+    at timeoutTask (/root/TIC2020/node_modules/mariadb/lib/pool-base.js:300:16)
+    at Timeout.rejectAndResetTimeout [as _onTimeout] (/root/TIC2020/node_modules/mariadb/lib/pool-base.js:322:5)
+    at listOnTimeout (internal/timers.js:556:17)
+    at processTimers (internal/timers.js:497:7) {
+  fatal: false,
+  errno: 45028,
+  sqlState: 'HY000',
+  code: 'ER_GET_CONNECTION_TIMEOUT'
+}

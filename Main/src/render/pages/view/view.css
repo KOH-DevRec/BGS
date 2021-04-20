@@ -1,0 +1,125 @@
+/* 視聴画面のCSS */
+
+/* 詳細の表示部分 */
+.detail {
+    height: 100%;
+    width: 220px;
+    background-color: #2e1517;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+  
+.logo-body {
+    height: 200px;
+    width: 200px;
+    background-color: #ffffff;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+  max-height: 200px;
+  max-width: 200px;
+  object-fit: cover;
+}
+  
+.detail-item{
+    margin-left: 10px;
+}
+  
+.stream-name{
+    color: #ffffff;
+    margin-top: -2px;
+    margin-bottom: -16px;
+    font-size: 18px;
+    font-weight: 800;
+}
+  
+.stream-name-under{
+    color: #ffffff;
+    margin-bottom: -5px;
+    font-size: 13x;
+    font-weight: 600;
+}
+  
+.detail-text{
+  color: #c6c6c6;
+  margin-bottom: -7px;
+  font-size: 13px;
+  font-weight: 500;
+  display:flex;
+  align-items: center;
+}
+  
+.icon{
+  height: 14px;
+  margin-right: 2px;
+  padding-bottom: 2px;
+}
+
+.detail-text a{
+  color: #c6c6c6;
+}
+
+/* メッセージの入力部分 */
+#input-item{
+  height: 38px;
+  width: 200px;
+  background-color: #462023;
+  border-radius: 4px;
+  margin-top: 20px;
+  display: flex;
+}
+
+#input-area{
+  height: 38px;
+  width: 160px;
+  padding-left: 5px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+#message-send{
+  height: 28px;
+  width: 28px;
+  margin-top: 6px;
+  margin-right: 6px;
+}
+  
+/* 配信映像 */
+#streamer-video{
+  height: auto;
+  width: calc(100% - 210px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+  /* 映像のダミー */
+  .back{
+    height: 100%;
+    width: calc( 100% - 220px ) ;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  /* デモ用のボタン */
+  #demo{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 0;
+    z-index: 5;
+  }

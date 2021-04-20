@@ -1,0 +1,93 @@
+.mypage-body {
+  min-height: calc(100% - 73px);
+  width: calc(100% - 162px);
+  margin-top: 56px;
+  margin-left:170px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  background-color: #3C1313;
+}
+
+.mypage-text {
+  margin-left:25px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+#mypage-button {
+  height: 42px;
+  width: 220px;
+  margin-top: -10px;
+  margin-left: 25px;
+  color: #c6c6c6;
+  background-color: #2e1517;
+  border-color: #c6c6c6;
+  border: 1.2px solid;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+}
+
+.subscribe-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25px;
+  padding-right: 20px;
+}
+
+.subscribe-item {
+  flex: none;
+  height: 160px;
+  width: 500px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #2e1517;
+}
+
+.subscribe-image {
+  height: 100%;
+  width: 240px;
+  background-color: #7a7a7a;
+  display: inline-block;
+}
+
+.subscribe-detail {
+  width: 200px;
+  padding-left: 10px;
+  color: #ffffff;
+  display: inline-block;
+  position: relative;
+  top: -30px
+}
+
+.subscribe-title {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.subscribe-text {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: #858585;
+  font-size: 14px;
+}
+
+#logout-button{
+    height: 42px;
+    width: 110px;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    z-index: 4;
+    color: #c6c6c6;
+    background-color: #2e1517;
+    border-color: #c6c6c6;
+    border: 2px solid;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor : pointer;
+    position: fixed; 
+    outline: none;
+}
